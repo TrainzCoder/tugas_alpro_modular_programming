@@ -10,6 +10,6 @@
 <br/>
 <h3>Program Menghitung Skala</h3>
 <p style="font-size:14px;">Hasil Program : </p>
-<img src="/img/skala.png" width="460px" height="460px alt="skala"/>
+<img src="/img/skala.png" width="500px" height="460px alt="skala"/>
                                                                                
 
