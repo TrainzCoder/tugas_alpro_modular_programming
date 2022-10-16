@@ -17,7 +17,7 @@ void open()
 
 int hitung_skala(float jarak_peta, float jarak_sebenarnya)
 {
-  int hasil = jarak_sebenarnya / jarak_peta;
+  int hasil = (jarak_sebenarnya / jarak_peta) * 100000;
 
   return hasil;
 }
@@ -38,7 +38,7 @@ void output()
       ;
   }
 
-  printf("\n\tMasukan jarak yang sebenarnya : ");
+  printf("\n\tMasukan jarak yang sebenarnya (KM) : ");
   while (scanf("%f", &jarak_sebenarnya) == 0)
   {
     printf("\n\tNilai yang anda masukan salah!");
